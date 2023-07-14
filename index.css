@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Playfair', 'Display';
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 3rem;
+}
+:root{
+    --main-color: #f55442;
+    --text-color: #fff;
+    --other-color: #383632;
+    --bg-color: #111111;
+}
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+    .image1 { 
+    filter: invert(100%); 
+    -webkit-filter:invert(100%); 
+    } 
+    .image2 { 
+    filter: sepia(100%);   
+    -webkit-filter: sepia(100%);  
+    } 
+header {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        right: 0;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: transparent;
+        padding: 30px 5%;
+        transition: all .50s ease;
+    }
+.header-img {
+        vertical-align: middle;
+        margin-right: 8px;
+}
+.navlist {
+        display: flex;
+    }
+    
